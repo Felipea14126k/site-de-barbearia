@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O&I — Barbearia Oak &amp; Iron</title>
+  <meta name="description" content="Barbearia de alto padrão: cortes clássicos, barba de precisão e rituais de cuidado em um ambiente de madeira, couro e luz quente." />
+
+  <!-- Google Fonts: Oswald (títulos/logo) e Source Sans 3 (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+<!-- Bloco do topo (menu) -->
+<header class="cabecalho">
+  <button class="logo" type="button" data-alvo="#home">O<span class="logo__amp">&amp;</span>I</button>
+  <nav class="navegacao" aria-label="Navegação principal">
+    <button class="navegacao__link" type="button" data-alvo="#home">Home</button>
+    <button class="navegacao__link" type="button" data-alvo="#servicos">Serviços</button>
+    <button class="navegacao__link" type="button" data-alvo="#galeria">Galeria</button>
+    <button class="navegacao__link navegacao__link--destaque" type="button" data-alvo="#agende">Agende</button>
+  </nav>
+</header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O&I — Barbearia Oak & Iron</title>
+
+  <!-- Google Fonts: Oswald e Source Sans 3 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Caminho do seu CSS (sem barra no início) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+  <main>
+    <!-- ================= HERO / HOME ================= -->
+    <section id="home" class="hero">
+      <div class="hero__conteudo">
+        <p class="hero__etiqueta">Barbearia Oak &amp; Iron</p>
+        <h1 class="hero__titulo">O ritual do cavalheiro</h1>
+        <p class="hero__texto">
+          Cortes clássicos, barba de precisão e rituais de cuidado em um
+          ambiente de madeira, couro e luz quente.
+        </p>
+        <button class="botao" type="button" data-alvo="#agende">Agende seu horário</button>
+      </div>
+    </section>
+
+    <!-- ================= SERVIÇOS ================= -->
+    <section id="servicos" class="servicos">
+      <div class="container">
+        <header class="secao__cabecalho">
+          <p class="secao__etiqueta">Nossos serviços</p>
+          <h2 class="secao__titulo">Feito para você</h2>
+          <p class="secao__texto">
+            Três rituais essenciais, executados com técnica, produtos premium
+            e atenção a cada detalhe.
+          </p>
+        </header>
+
+        <div class="servicos-grid">
+          <article class="servico-card">
+            <!-- INSIRA AQUI: caminho da sua imagem de Barba -->
+            <img src="imagens/barba.jpg" alt="Barbeiro aparando a barba de um cliente com navalha" loading="lazy" />
+            <div class="servico-card__corpo">
+              <h3 class="servico-card__titulo">Barba</h3>
+              <p class="servico-card__texto">
+                Toalha quente, navalha e acabamento de precisão para uma barba
+                alinhada, hidratada e impecável.
+              </p>
+            </div>
+          </article>
+
+          <article class="servico-card">
+            <!-- INSIRA AQUI: caminho da sua imagem de Cabelo -->
+            <img src="imagens/cabelo.jpg" alt="Barbeiro realizando um corte de cabelo com tesoura" loading="lazy" />
+            <div class="servico-card__corpo">
+              <h3 class="servico-card__titulo">Cabelo</h3>
+              <p class="servico-card__texto">
+                Cortes clássicos e contemporâneos com consultoria de visagismo,
+                finalizados com styling.
+              </p>
+            </div>
+          </article>
+
+          <article class="servico-card">
+            <!-- INSIRA AQUI: caminho da sua imagem de Hidratação -->
+            <img src="imagens/hidratacao.jpg" alt="Toalhas quentes e óleos de barba sobre o balcão de madeira" loading="lazy" />
+            <div class="servico-card__corpo">
+              <h3 class="servico-card__titulo">Hidratação</h3>
+              <p class="servico-card__texto">
+                Ritual de hidratação para fios e barba com produtos premium,
+                devolvendo brilho, maciez e saúde.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALERIA ================= -->
+    <section id="galeria" class="galeria">
+      <div class="container">
+        <header class="secao__cabecalho">
+          <p class="secao__etiqueta">Galeria</p>
+          <h2 class="secao__titulo">Dentro da O&amp;I</h2>
+        </header>
+
+        <div class="galeria-grid">
+          <figure class="galeria__item">
+            <!-- INSIRA AQUI: caminho da sua foto (400x400) -->
+            <img src="imagens/galeria-1.jpg" alt="Navalha e pincel de barbear sobre madeira escura" loading="lazy" />
+          </figure>
+          <figure class="galeria__item">
+            <!-- INSIRA AQUI: caminho da sua foto (400x400) -->
+            <img src="imagens/galeria-2.jpg" alt="Cadeira de barbeiro de couro sob lâmpadas de filamento" loading="lazy" />
+          </figure>
+          <figure class="galeria__item">
+            <!-- INSIRA AQUI: caminho da sua foto (400x400) -->
+            <img src="imagens/galeria-3.jpg" alt="Espelho vintage com lâmpadas quentes no balcão" loading="lazy" />
+          </figure>
+          <figure class="galeria__item">
+            <!-- INSIRA AQUI: caminho da sua foto (400x400) -->
+            <img src="imagens/galeria-4.jpg" alt="Pomadas, pentes e tesouras sobre couro escuro" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= AGENDE ================= -->
+    <section id="agende" class="agende">
+      <div class="container agende__conteudo">
+        <p class="secao__etiqueta">Agende</p>
+        <h2 class="secao__titulo">Pronto para sentar na cadeira?</h2>
+        <p class="secao__texto">
+          Reserve seu horário pelo WhatsApp ou por telefone e viva o ritual Oak &amp; Iron.
+        </p>
+        <div class="agende__acoes">
+          <!-- SUBSTITUA: número de WhatsApp real da barbearia -->
+          <a class="botao" href="https://wa.me/5511999999999" target="_blank" rel="noopener">WhatsApp</a>
+          <!-- SUBSTITUA: telefone real da barbearia -->
+          <a class="botao botao--suave" href="tel:+5511999999999">(11) 99999-9999</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-grid">
+        <div>
+          <h3 class="rodape__titulo">O<span class="rodape__amp">&amp;</span>I</h3>
+          <p class="rodape__texto">
+            Uma barbearia de alto padrão onde madeira, couro e luz de filamento
+            criam o cenário do cuidado masculino.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="rodape__titulo">Horários</h3>
+          <!-- SUBSTITUA: horários reais de funcionamento -->
+          <ul class="rodape__lista">
+            <li>Seg a Sex — 09h às 22h</li>
+            <li>Sábado — 09h às 21h</li>
+            <li>Domingo — Fechado</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="rodape__titulo">Endereço</h3>
+          <address class="rodape__texto">
+            <!-- SUBSTITUA: endereço real da barbearia -->
+            Rua Exemplo, 123 — Centro<br />
+            São Paulo — SP
+          </address>
+          <p class="rodape__texto">
+            <!-- SUBSTITUA: telefone e e-mail reais -->
+            (11) 99999-9999 · contato@oakiron.com.br
+          </p>
+        </div>
+      </div>
+
+      <p class="rodape__base">© 2026 O&amp;I — Oak &amp; Iron. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+      <!-- ... todo o conteúdo da página acima ... -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
